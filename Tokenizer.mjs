@@ -1,8 +1,8 @@
-import Attributes from "../Dom/Attributes.mjs";
+import Attributes from "./inc/Attributes.mjs";
 import fs from "fs";
 import path from "path";
-import { relink } from "./Relink.mjs";
-import { isRelative, resolve } from "../Util/Path.mjs";
+import { relink } from "./inc/Relink.mjs";
+import { isRelative, resolve } from "./inc/UtilPath.mjs";
 
 const REGEX = {
     tag: /\{(?:([a-z]*)(?:[\(]*)([^\)]*)(?:[\)]*)*)\{([\s\S]*?)\}\}/,

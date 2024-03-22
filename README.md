@@ -16,6 +16,16 @@ The Tokenizer module can be installed via npm:
 npm install @example/tokenizer
 ```
 
+## Patterns
+
+```html
+    {each{token->templateId}}
+```
+```html
+    {include(./path/to/tpl.tpl){ "token1": "baz", "foo": "bar" }}
+```
+
+
 ## Usage
 ```javascript
 import Tokenizer from "@example/tokenizer";
